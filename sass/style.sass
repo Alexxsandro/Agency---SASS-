@@ -143,7 +143,10 @@
       height: 415px
       margin: 0 2%
       background-image: url('../img/job1.jpg')
+      background-size: cover
+      background-position: left
       position: relative
+      top:45px
       cursor: pointer
       transition: .5s
       @extend %center-bg
@@ -176,15 +179,19 @@
 
       #job2
         background-image: url('../img/job2.jpg')
+        @include bg-image
 
       #job3
         background-image: url('../img/job3.jpg')
+        @include bg-image
 
       #job4
         background-image: url('../img/job4.jpg')
+        @include bg-image
 
       #job5
         background-image: url('../img/job5.jpg')
+        @include bg-image
 
     .job-card-cover
       position: absolute
